@@ -14,7 +14,6 @@ Rails.application.routes.draw do
   resources :expenses 
   resources :home_page 
   resources :itinerary
-end 
   
   mount ActionCable.server, at: '/cable'
 end

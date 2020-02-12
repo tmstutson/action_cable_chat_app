@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+  
+.navbar {
+  font-family: 'Canela Black';
+  font-weight: 400;
+  }

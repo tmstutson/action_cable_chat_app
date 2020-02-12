@@ -12,10 +12,25 @@
  *
  *= require_tree .
  *= require_self
+ *= require simple_calendar
  */
 
-  
+ .alert {
+  background-color: #7292b0;
+  color: #fcfaf5;
+  font-size: 12px;
+  padding: 0 20px 20px;
+  width: 100%;
+}
+
 .navbar {
-  font-family: 'Canela Black';
-  font-weight: 400;
+  font-family: 'Canela Black' Canela Bold;
+  font-weight: 800;
+  box-shadow: 0px 1px 3px #2a2a2a;
   }
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Canela Black' Canela Bold;
+  font-weight: 600;
+  color: white;
+}

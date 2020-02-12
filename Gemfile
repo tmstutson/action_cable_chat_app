@@ -13,9 +13,9 @@ gem 'jbuilder',                '2.4.1'
 gem 'kramdown',                '1.12.0'
 gem 'popper_js',            '~> 1.11.1'
 gem 'bootstrap',          '4.0.0.alpha6'
-gem 'omniauth-google-oauth2'
 gem 'stripe'
 gem 'figaro'
+gem 'simple_calendar', '~> 2.0'
 
 
 source 'https://rails-assets.org' do

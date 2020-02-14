@@ -18,6 +18,7 @@ gem 'figaro'
 gem 'simple_calendar', '~> 2.0'
 
 
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end 
@@ -26,6 +27,7 @@ end
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.0', platform: :mri
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do

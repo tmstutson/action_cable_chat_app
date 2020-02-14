@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :meetings
   resources :users
   resources :messages
   get    '/login',   to: 'sessions#new'
